@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.side {
+    display: flex;
+    color: white;
+    background-color: #FE1A19;
+    font-family: helvetica, sans-serif;
+    height: 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    align-content: space-around;
+    padding-left: 20px;
+}
+
+.column-box {
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    font-family: helvetica, sans-serif;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    line-height: 57.5px;
+}
+
+.column-box-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    width: 400px;
+    height: 800px;
+    left: 70px;
+    top: 112px;
+    border: 5px solid #E5E000;
+    border-radius: 30px;
+    margin: 25px;
+}
+
+.column-header {
+    display: flex;
+    width: 207px;
+    height: 23px;
+    /*left: 103px;
+    top: 145px;*/
+
+    margin-top: 33px; 
+    margin-left: 33px;
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.menu-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-left: 30px;
+    margin-top: 20px;
+
+
+    
+    color: #000000;
+}
+
+/*
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+}
+*/
+
+.footer-item {
+    display: flex;
+    flex: 1;
+}
+
+.text {
+    display: flex;
+    height: 30pxt;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.logo-box {
+    display: flex;
+    height: 30pxt;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 30px;
+}
+
